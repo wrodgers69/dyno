@@ -10,7 +10,7 @@ from PIL import Image
 
 
 # Create your views here.
-
+# here is a test i am addnig to views to see if this works.
 
 class home(View):
 
