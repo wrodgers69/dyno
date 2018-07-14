@@ -1,0 +1,8 @@
+<form method="POST" action="">
+{% csrf_token %}
+<input type="text" name="number">
+
+<button type="submit">Upload text</button>
+</form>
+
+<h3> Input x 100 = {{ number }} </h3>
